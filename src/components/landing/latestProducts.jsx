@@ -51,16 +51,40 @@ const products = [
       { key: "Color", value: "Silver" },
     ],
   },
+  {
+    id: 5,
+    name: "Galvanized Cross Cable Tray",
+    imgSrc: "/productImages/galvanized-cross-cable-tray.jpeg",
+    price: "$349",
+    rating: 4.9,
+    otherDetails: [
+      { key: "Noise Cancellation", value: "Industry Leading" },
+      { key: "Battery Life", value: "30 hours" },
+      { key: "Color", value: "Black" },
+    ],
+  },
+  {
+    id: 6,
+    name: "GI Ladder Type Cable Tray",
+    imgSrc: "/productImages/gi-ladder-type-cable-tray.jpeg",
+    price: "$2499",
+    rating: 5.0,
+    otherDetails: [
+      { key: "Processor", value: "M1 Pro" },
+      { key: "Storage", value: "1TB SSD" },
+      { key: "Color", value: "Silver" },
+    ],
+  },
 ];
 
 export function LatestProducts() {
   return (
-    <div className="py-4">
-      <p className="text-center font-semibold text-2xl">
+    <div className="flex flex-col justify-center items-center">
+      <p className="text-center font-semibold text-4xl mt-8">
         Our <span className="text-blue-500">Products</span>
       </p>
 
-      <div className="flex flex-wrap justify-center gap-8 mt-4">
+      <div className="w-[85%] flex flex-wrap justify-between gap-8 mt-8">
         {products.map((product) => (
           <FlipCard key={product.id} product={product} />
         ))}
@@ -75,62 +99,59 @@ function FlipCard({ product }) {
 
   return (
     <div
-      className="relative max-w-xs w-full cursor-pointer perspective"
+      className="relative max-w-sm w-full h-80 cursor-pointer perspective"
       onMouseEnter={() => setIsFlipped(true)}
       onMouseLeave={() => setIsFlipped(false)}
     >
       <div
-        className={`relative h-full transition-transform duration-500 ease-in-out transform ${
+        className={`relative w-full h-full transition-transform duration-500 ease-in-out transform-style preserve-3d ${
           isFlipped ? "rotate-y-180" : ""
         }`}
       >
-        <div className="w-full h-full">
-          <div className="w-full max-w-sm h-80 devide-y bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {isFlipped ? (
-              <div className="w-full h-full flex flex-col justify-between transform rotate-y-180 bg-gray-100 dark:bg-gray-800 p-4">
-                <div className="space-y-4">
-                  <h5 className="text-xl font-semibold text-blue-500">
-                    {product.name}
-                  </h5>
-                  <ul>
-                    {product.otherDetails.map((detail, index) => (
-                      <li
-                        key={index}
-                        className="text-gray-700 dark:text-gray-400"
-                      >
-                        <span className="font-semibold">{detail.key}:</span>{" "}
-                        {detail.value}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="flex items-center justify-between mt-4">
-                  <div className="w-full flex justify-between items-center gap-2">
-                    <button className="w-full rounded-lg bg-blue-500 px-4 py-2 text-sm font-medium text-white hover:bg-blue-600">
-                      Enquiry Now
-                    </button>
-                    <button className="w-full rounded-lg bg-cyan-700 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800">
-                      View More
-                    </button>
-                  </div>
-                </div>
+        {/* Front Side */}
+        <div className="absolute w-full h-full backface-hidden">
+          <div className="w-full h-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
+            <div className="">
+              <img
+                className="h-60 w-full object-cover rounded-lg p-4"
+                src={product.imgSrc}
+                alt={product.name}
+              />
+            </div>
+            <div className="py-4 border-t">
+              <h5 className="text-xl font-semibold tracking-tight text-blue-500 text-center">
+                {product.name}
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        {/* Back Side */}
+        <div className="absolute w-full h-full backface-hidden rotate-y-180">
+          <div className="w-full h-full bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow flex flex-col justify-between">
+            <div className="space-y-4">
+              <h5 className="text-xl font-semibold text-blue-500">
+                {product.name}
+              </h5>
+              <ul>
+                {product.otherDetails.map((detail, index) => (
+                  <li key={index} className="text-gray-700 dark:text-gray-400">
+                    <span className="font-semibold">{detail.key}:</span>{" "}
+                    {detail.value}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex items-center justify-between mt-4">
+              <div className="w-full flex justify-between items-center gap-2">
+                <button className="w-full rounded-lg bg-blue-500 px-4 py-2 text-sm font-medium text-white hover:bg-blue-600">
+                  Enquiry Now
+                </button>
+                <button className="w-full rounded-lg bg-cyan-700 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800">
+                  View More
+                </button>
               </div>
-            ) : (
-              <div className="w-full h-full divide-y flex flex-col justify-between">
-                <div className="">
-                  <img
-                    className="h-60"
-                    src={product.imgSrc}
-                    alt={product.name}
-                  />
-                </div>
-                <div className="py-4">
-                  <h5 className="text-xl font-semibold tracking-tight text-blue-500 text-center">
-                    {product.name}
-                  </h5>
-                </div>
-              </div>
-            )}
+            </div>
           </div>
         </div>
       </div>

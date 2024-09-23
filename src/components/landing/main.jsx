@@ -4,6 +4,8 @@ import { NavbarSection } from "../layout/navbar";
 import { FooterSection } from "../layout/footer";
 import { LatestProducts } from "./latestProducts";
 import { ContactBar } from "../layout/contactBar";
+import ContactSection from "./contactSection";
+import AboutUsSection from "./aboutSection";
 
 const LandingPage = () => {
   return (
@@ -12,6 +14,8 @@ const LandingPage = () => {
       <NavbarSection />
       <HeroSection />
       <LatestProducts />
+      <AboutUsSection />
+      <ContactSection />
       <FooterSection />
     </div>
   );
