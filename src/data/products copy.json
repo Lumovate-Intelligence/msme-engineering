@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Electric Cable Tray",
+    "slug": "electric-cable-tray",
+    "category": "Electrical",
+    "imgSrc": "/productImages/electric-cable-tray.jpeg",
+    "price": "$599",
+    "rating": 5.0,
+    "otherDetails": [
+      { "key": "Battery Life", "value": "18 hours" },
+      { "key": "Water Resistance", "value": "50 meters" },
+      { "key": "Color", "value": "Starlight" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Galvanized Cable Trays",
+    "slug": "galvanized-cable-trays",
+    "category": "Galvanized",
+    "imgSrc": "/productImages/galvanized-cable-trays.jpeg",
+    "price": "$199",
+    "rating": 4.8,
+    "otherDetails": [
+      { "key": "Battery Life", "value": "12 hours" },
+      { "key": "Noise Cancellation", "value": "Active" },
+      { "key": "Color", "value": "White" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Galvanized Cross Cable Tray",
+    "slug": "galvanized-cross-cable-tray",
+    "category": "Galvanized",
+    "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
+    "price": "$349",
+    "rating": 4.9,
+    "otherDetails": [
+      { "key": "Noise Cancellation", "value": "Industry Leading" },
+      { "key": "Battery Life", "value": "30 hours" },
+      { "key": "Color", "value": "Black" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "GI Ladder Type Cable Tray",
+    "slug": "gi-ladder-type-cable-tray",
+    "category": "Ladder",
+    "imgSrc": "/productImages/gi-ladder-type-cable-tray.jpeg",
+    "price": "$2499",
+    "rating": 5.0,
+    "otherDetails": [
+      { "key": "Processor", "value": "M1 Pro" },
+      { "key": "Storage", "value": "1TB SSD" },
+      { "key": "Color", "value": "Silver" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Galvanized Cross Cable Tray",
+    "slug": "galvanized-cross-cable-tray",
+    "category": "Galvanized",
+    "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
+    "price": "$349",
+    "rating": 4.9,
+    "otherDetails": [
+      { "key": "Noise Cancellation", "value": "Industry Leading" },
+      { "key": "Battery Life", "value": "30 hours" },
+      { "key": "Color", "value": "Black" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "GI Ladder Type Cable Tray",
+    "slug": "gi-ladder-type-cable-tray",
+    "category": "Ladder",
+    "imgSrc": "/productImages/gi-ladder-type-cable-tray.jpeg",
+    "price": "$2499",
+    "rating": 5.0,
+    "otherDetails": [
+      { "key": "Processor", "value": "M1 Pro" },
+      { "key": "Storage", "value": "1TB SSD" },
+      { "key": "Color", "value": "Silver" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Electric Cable Tray",
+    "slug": "electric-cable-tray",
+    "category": "Electrical",
+    "imgSrc": "/productImages/electric-cable-tray.jpeg",
+    "price": "$599",
+    "rating": 5.0,
+    "otherDetails": [
+      { "key": "Battery Life", "value": "18 hours" },
+      { "key": "Water Resistance", "value": "50 meters" },
+      { "key": "Color", "value": "Starlight" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Galvanized Cable Trays",
+    "slug": "galvanized-cable-trays",
+    "category": "Galvanized",
+    "imgSrc": "/productImages/galvanized-cable-trays.jpeg",
+    "price": "$199",
+    "rating": 4.8,
+    "otherDetails": [
+      { "key": "Battery Life", "value": "12 hours" },
+      { "key": "Noise Cancellation", "value": "Active" },
+      { "key": "Color", "value": "White" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Galvanized Cross Cable Tray",
+    "slug": "galvanized-cross-cable-tray",
+    "category": "Galvanized",
+    "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
+    "price": "$349",
+    "rating": 4.9,
+    "otherDetails": [
+      { "key": "Noise Cancellation", "value": "Industry Leading" },
+      { "key": "Battery Life", "value": "30 hours" },
+      { "key": "Color", "value": "Black" }
+    ]
+  }
+]
