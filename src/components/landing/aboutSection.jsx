@@ -2,16 +2,16 @@ import { Button } from "flowbite-react";
 
 export default function AboutUsSection() {
   return (
-    <div className="w-full flex justify-center items-center">
-      <div className="w-[85%] flex flex-col items-center justify-center pt-8">
+    <div id="about" className="w-full flex justify-center items-center">
+      <div className="w-[95%] md:w-[85%] flex flex-col items-center justify-center pt-8">
         <p className="text-center font-semibold text-4xl">
           About <span className="text-blue-500">US</span>
         </p>
-        <section className="bg-white border rounded-lg shadow py-16 mt-8">
+        <section className="bg-white border rounded-lg shadow py-8 mt-8">
           <div className="px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="flex flex-col-reverse md:flex-row justify-between gap-4 md:gap-0">
               {/* Text Section */}
-              <div>
+              <div className="w-full md:w-[45%]">
                 <h2 className="text-4xl font-bold text-gray-800 mb-4">
                   MSME Engineering
                 </h2>
@@ -33,19 +33,19 @@ export default function AboutUsSection() {
                   and perforated products, are ideal for various industries such
                   as data centers, wind towers, and solar power systems.
                 </p>
-                <Button href="/contact" className="w-[90%] mt-6 bg-blue-500">
+                <Button href="/products" className="w-full mt-6 bg-blue-500">
                   Explore Our Products
                 </Button>
               </div>
 
               {/* Image Section */}
-              <div className="">
+              <div className="w-full md:w-[45%]">
                 <div className="relative h-full w-full">
                   <img
                     src="./aboutUs.jpg"
                     alt="MSME Engineering Team"
                     layout="fill"
-                    objectFit="cover"
+                    objectfit="cover"
                   />
                 </div>
               </div>

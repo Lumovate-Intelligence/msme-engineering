@@ -3,7 +3,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="h-56 sm:h-64 xl:h-96">
+    <div className="h-36 sm:h-64 xl:h-96">
       <Carousel slideInterval={2000}>
         <img src="../posterImages/metalCableTrays.jpg" alt="..." />
         <img src="../posterImages/giEarthingStrips.jpg" alt="..." />

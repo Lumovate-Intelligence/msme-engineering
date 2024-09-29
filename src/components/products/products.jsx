@@ -1,43 +1,19 @@
 "use client";
 import { useState } from "react";
 import productData from "../../data/products.json";
-import { IoGridOutline } from "react-icons/io5";
 import Link from "next/link";
 
-export function LatestProducts() {
+export function Products() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <p className="text-center font-semibold text-4xl mt-4 md:mt-8">
+    <div className="flex flex-col justify-center items-center mb-8">
+      <p className="text-center font-semibold text-4xl mt-8">
         Our <span className="text-blue-500">Products</span>
       </p>
 
       <div className="w-[95%] md:w-[85%] flex flex-wrap justify-between gap-8 mt-8">
-        {productData?.slice(0, 5)?.map((product) => (
+        {productData.map((product) => (
           <FlipCard key={product.id} product={product} />
         ))}
-
-        {/* See All Products Card */}
-        <Link
-          href="/products"
-          className="relative md:max-w-sm w-full h-80 cursor-pointer perspective"
-        >
-          <div className="relative w-full h-full">
-            <div className="absolute w-full h-full backface-hidden">
-              <div className="w-full h-full bg-white hover:bg-blue-200 border border-gray-200 hover:border-blue-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-center items-center">
-                <div className="w-full h-full flex flex-col justify-between items-center">
-                  <div className="h-full flex items-center">
-                    <IoGridOutline className="h-48 w-full text-blue-500" />
-                  </div>
-                  <div className="w-full py-4 border-t">
-                    <h5 className="text-xl font-semibold tracking-tight text-blue-500 text-center">
-                      See All Products
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
       </div>
     </div>
   );

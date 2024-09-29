@@ -1,28 +1,41 @@
 import { MdOutlinePhoneInTalk, MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 export function ContactBar() {
   return (
     <div className="w-full flex justify-center bg-blue-500 py-2">
-      <div className="w-[85%] flex justify-between">
-        <div className="flex space-x-4 text-white">
-          <a className="flex items-center space-x-2">
-            <MdOutlinePhoneInTalk /> <p className="text-sm">+91 8798345356</p>
+      <div className="w-[95%] md:w-[85%] space-y-2 md:space-y-0 flex flex-col md:flex-row justify-between">
+        <div className="w-full md:w-fit flex space-x-4 text-white justify-between">
+          <a href="tel:+918798345356" className="flex items-center space-x-2">
+            <MdOutlinePhoneInTalk />
+            <p className="text-sm">+91 8798345356</p>
           </a>
-          <a className="flex items-center space-x-2">
+          <a
+            href="mailto:sales@msmeengineering.com"
+            className="flex items-center space-x-2"
+          >
             <MdOutlineMailOutline />
             <p className="text-sm">sales@msmeengineering.com</p>
           </a>
         </div>
         <div className="flex space-x-4">
-          <button className="border border-white text-white rounded-lg flex items-center space-x-2 px-2 py-1">
+          <Link
+            href="/#contact"
+            className="justify-center w-full md:w-fit border border-white text-white rounded-lg flex items-center space-x-2 px-2 py-1"
+          >
             <MdOutlineMailOutline />
             <p className="text-sm">Send Email</p>
-          </button>
-          <button className="border bg-green-500 text-white rounded-lg flex items-center space-x-2 px-2 py-1">
+          </Link>
+          <a
+            href="https://wa.me/918798345356?text=Hi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="justify-center w-full md:w-fit border bg-green-500 text-white rounded-lg flex items-center space-x-2 px-2 py-1"
+          >
             <FaWhatsapp />
             <p className="text-sm">Whatsapp</p>
-          </button>
+          </a>
         </div>
       </div>
     </div>
