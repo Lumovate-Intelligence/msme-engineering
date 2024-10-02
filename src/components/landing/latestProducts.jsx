@@ -61,9 +61,9 @@ function FlipCard({ product }) {
         {/* Front Side */}
         <div className="absolute w-full h-full backface-hidden">
           <div className="w-full h-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
-            <div className="">
+            <div className="flex justify-center items-center h-60 p-4 rounded-lg">
               <img
-                className="h-60 w-full object-cover rounded-lg p-4"
+                className="h-full w-auto"
                 src={product.imgSrc}
                 alt={product.name}
               />
@@ -85,7 +85,7 @@ function FlipCard({ product }) {
               </h5>
               <table className="min-w-full table-auto border border-gray-300 dark:border-gray-700">
                 <tbody>
-                  {product.otherDetails?.slice(0, 4)?.map((detail, index) => (
+                  {product.otherDetails?.slice(0, 3)?.map((detail, index) => (
                     <tr
                       key={index}
                       className="border-b border-gray-300 dark:border-gray-700"
