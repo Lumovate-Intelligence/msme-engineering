@@ -7,16 +7,16 @@ export function ContactBar() {
     <div className="w-full flex justify-center bg-blue-500 py-2">
       <div className="w-[95%] md:w-[85%] space-y-2 md:space-y-0 flex flex-col md:flex-row justify-between">
         <div className="w-full md:w-fit flex space-x-4 text-white justify-between">
-          <a href="tel:+918798345356" className="flex items-center space-x-2">
+          <a href="tel:+918448640282" className="flex items-center space-x-2">
             <MdOutlinePhoneInTalk />
-            <p className="text-sm">+91 8798345356</p>
+            <p className="text-sm">+91 8448640282</p>
           </a>
           <a
-            href="mailto:sales@msmeengineering.com"
+            href="mailto:msmeengineering@yahoo.com"
             className="flex items-center space-x-2"
           >
             <MdOutlineMailOutline />
-            <p className="text-sm">sales@msmeengineering.com</p>
+            <p className="text-sm">msmeengineering@yahoo.com</p>
           </a>
         </div>
         <div className="flex space-x-4">
@@ -28,7 +28,7 @@ export function ContactBar() {
             <p className="text-sm">Send Email</p>
           </Link>
           <a
-            href="https://wa.me/918798345356?text=Hi"
+            href="https://wa.me/918448640282?text=Hi"
             target="_blank"
             rel="noopener noreferrer"
             className="justify-center w-full md:w-fit border bg-green-500 text-white rounded-lg flex items-center space-x-2 px-2 py-1"

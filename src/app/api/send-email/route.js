@@ -5,11 +5,11 @@ import nodemailer from "nodemailer";
 export async function POST(request) {
   try {
     // Parse the request body to get the email details
-    const { to, subject, text, html } = await request.json();
+    const { to, cc, subject, text, html } = await request.json();
 
     // Create a transporter object using SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "smtp.example.com", // Your SMTP server (e.g., 'smtp.gmail.com' for Gmail)
+      host: "smtp.gmail.com", // Your SMTP server (e.g., 'smtp.gmail.com' for Gmail)
       port: 587, // Use 465 for SSL, or 587 for TLS
       secure: false, // Set to true if using SSL
       auth: {
@@ -22,6 +22,7 @@ export async function POST(request) {
     let mailOptions = {
       from: process.env.EMAIL_USER, // Sender address
       to, // List of receivers
+      cc, // User's email as CC
       subject, // Subject line
       text, // Plain text body
       html, // HTML body

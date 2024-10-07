@@ -30,10 +30,19 @@ const ContactSection = ({ selectedProduct = "" }) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: "recipient@example.com", // Replace with the actual recipient
+          to: "msmeengineering@yahoo.com",
+          cc: email,
           subject: `Enquiry for ${product}`,
           text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
-          html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Message:</strong> ${message}</p>`,
+          html: `
+              <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Phone:</strong> ${phone}</p>
+                <p><strong>Message:</strong> ${message}</p>
+                <p><strong>Product:</strong> ${product}</p>
+              </div>
+            `,
         }),
       });
 
@@ -132,7 +141,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
 
         <div className="space-x-0 space-y-6 md:space-x-6 md:space-y-0 flex flex-col md:flex-row justify-between my-4">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Mundka,Delhi"
+            href="https://www.google.com/maps/search/?api=1&query=JCCQ%2B8Q9%20Ghaziabad,%20Uttar%20Pradesh"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
@@ -142,12 +151,12 @@ const ContactSection = ({ selectedProduct = "" }) => {
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-blue-500 font-semibold">Location</h4>
-              <p>Mundka, Delhi</p>
+              <p>Ghaziabad, Uttar Pradesh</p>
             </div>
           </a>
 
           <a
-            href="tel:+919672768874"
+            href="tel:+918448640282"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
@@ -155,12 +164,12 @@ const ContactSection = ({ selectedProduct = "" }) => {
             </div>
             <div className="w-full flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-blue-500 font-semibold">Mobile</h4>
-              <p>+91-9672768874</p>
+              <p>+91-8448640282</p>
             </div>
           </a>
 
           <a
-            href="mailto:sales@msmeengineering.com"
+            href="mailto:msmeengineering@yahoo.com"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
@@ -168,7 +177,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-blue-500 font-semibold">Email</h4>
-              <p>sales@msmeengineering.com</p>
+              <p>msmeengineering@yahoo.com</p>
             </div>
           </a>
 
