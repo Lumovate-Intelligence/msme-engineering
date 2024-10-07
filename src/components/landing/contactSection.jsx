@@ -7,6 +7,7 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import productData from "../../data/products.json";
+import SpinLoading from "../layout/loading";
 
 const ContactSection = ({ selectedProduct = "" }) => {
   // State for form fields
@@ -15,26 +16,29 @@ const ContactSection = ({ selectedProduct = "" }) => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   // Disable product selection if selectedProduct is passed
   const isProductDisabled = selectedProduct !== "";
 
   // Form submission handler
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          to: "msmeengineering@yahoo.com",
-          cc: email,
-          subject: `Enquiry for ${product}`,
-          text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
-          html: `
+      if (product && name && email) {
+        const response = await fetch("/api/send-email", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            to: "msmeengineering@yahoo.com",
+            cc: email,
+            subject: `Enquiry for ${product}`,
+            text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
+            html: `
               <div style="font-family: Arial, sans-serif; line-height: 1.5; color: #333;">
                 <p><strong>Name:</strong> ${name}</p>
                 <p><strong>Email:</strong> ${email}</p>
@@ -43,16 +47,21 @@ const ContactSection = ({ selectedProduct = "" }) => {
                 <p><strong>Product:</strong> ${product}</p>
               </div>
             `,
-        }),
-      });
+          }),
+        });
 
-      if (response.ok) {
-        alert("Message sent successfully!");
+        if (response.ok) {
+          alert("Message sent successfully!");
+        } else {
+          alert("Failed to send the message.");
+        }
       } else {
-        alert("Failed to send the message.");
+        alert("Please Select Product, Enter Name and Email is Required.");
       }
     } catch (error) {
       console.error("Error sending email:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -130,10 +139,14 @@ const ContactSection = ({ selectedProduct = "" }) => {
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
               <button
-                className="bg-blue-500 text-white p-3 rounded-lg mt-4 w-full"
-                type="submit"
+                className="flex justify-center bg-blue-500 text-white p-3 rounded-lg mt-4 w-full"
+                type={loading ? "button" : "submit"}
               >
-                Send Message
+                {loading ? (
+                  <SpinLoading className="w-5 h-5 text-white" />
+                ) : (
+                  <p>Send Message</p>
+                )}
               </button>
             </form>
           </div>
