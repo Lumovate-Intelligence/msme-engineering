@@ -52,6 +52,11 @@ const ContactSection = ({ selectedProduct = "" }) => {
 
         if (response.ok) {
           alert("Message sent successfully!");
+          setEmail("");
+          setPhone("");
+          setMessage("");
+          setProduct("");
+          setName("");
         } else {
           alert("Failed to send the message.");
         }
