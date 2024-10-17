@@ -37,12 +37,13 @@ export function NavbarSection({ fixed = false }) {
     >
       <Navbar className="w-[97%] md:w-[87%]">
         <NavbarBrand href="/">
-          <span className="self-center whitespace-nowrap text-xl font-semibold text-gray-600 dark:text-white">
+          {/* <span className="self-center whitespace-nowrap text-xl font-semibold text-gray-600 dark:text-white">
             MSME Engineering
-          </span>
+          </span> */}
+          <img src="/logos/logowithtext.png" className="w-28" />
         </NavbarBrand>
         <div className="flex md:order-2">
-          <button className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-1">
+          <button className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-2">
             <IoSearch />
             <p className="text-sm">Search</p>
           </button>

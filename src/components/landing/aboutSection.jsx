@@ -43,9 +43,9 @@ export default function AboutUsSection() {
 
               {/* Image Section */}
               <div className="w-full md:w-[45%]">
-                <div className="relative h-full w-full">
+                <div className="relative h-full w-full flex items-center">
                   <img
-                    src="./aboutUs.jpg"
+                    src="./aboutUs.png"
                     alt="MSME Engineering Team"
                     layout="fill"
                     objectfit="cover"

@@ -81,9 +81,9 @@ const ContactSection = ({ selectedProduct = "" }) => {
       <div className="w-[95%] md:w-[85%] border rounded-lg shadow bg-white py-4 px-4 md:px-8 my-8">
         <div className="flex flex-col items-center">
           <div className="flex flex-col md:flex-row justify-between">
-            <div className="w-full md:w-[45%]">
+            <div className="w-full md:w-[45%] py-4">
               <img
-                src="/contactUs.jpg" // Replace with actual image path
+                src="/contactUs.png" // Replace with actual image path
                 alt="Woman with laptop"
                 className="w-full h-auto mb-6"
               />
