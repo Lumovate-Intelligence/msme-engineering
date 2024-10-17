@@ -3,126 +3,375 @@
     "id": 1,
     "name": "Electric Cable Tray",
     "slug": "electric-cable-tray",
-    "category": "Electrical",
+    "category": "Metal Cable Trays",
     "imgSrc": "/productImages/electric-cable-tray.jpeg",
-    "price": "$599",
-    "rating": 5.0,
+    "price": "₹100.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Battery Life", "value": "18 hours" },
-      { "key": "Water Resistance", "value": "50 meters" },
-      { "key": "Color", "value": "Starlight" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Surface Finishing", "value": "Polished" },
+      { "key": "Speciality", "value": "Premium Quality, High Strength" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Tray Type", "value": "Perforated Cable Tray" },
+      { "key": "Size", "value": "50 to 600mm" },
+      { "key": "Cable Tray Coating", "value": "Pre-Galvanized" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 2,
     "name": "Galvanized Cable Trays",
     "slug": "galvanized-cable-trays",
-    "category": "Galvanized",
+    "category": "Metal Cable Trays",
     "imgSrc": "/productImages/galvanized-cable-trays.jpeg",
-    "price": "$199",
-    "rating": 4.8,
+    "price": "₹180.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Battery Life", "value": "12 hours" },
-      { "key": "Noise Cancellation", "value": "Active" },
-      { "key": "Color", "value": "White" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Tray Type", "value": "Perforated Cable Tray" },
+      { "key": "Material", "value": "MS" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Cable Tray Coating", "value": "Hot-Dip Galvanized" },
+      { "key": "Usage/Application", "value": "Electric" },
+      { "key": "Size", "value": "50 to 600mm" },
+      { "key": "Grade", "value": "A" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 3,
     "name": "Galvanized Cross Cable Tray",
     "slug": "galvanized-cross-cable-tray",
-    "category": "Galvanized",
+    "category": "Metal Cable Trays",
     "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
-    "price": "$349",
-    "rating": 4.9,
+    "price": "₹200.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Noise Cancellation", "value": "Industry Leading" },
-      { "key": "Battery Life", "value": "30 hours" },
-      { "key": "Color", "value": "Black" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Type", "value": "Galvanized Cable Trays" },
+      { "key": "Material", "value": "Galvanized" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Application", "value": "Installation Of Cables" },
+      { "key": "Color", "value": "Silver" },
+      {
+        "key": "Feature",
+        "value": "Rugged Proof, Premium Quality, High Strength"
+      },
+      { "key": "Condition", "value": "New" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 4,
     "name": "GI Ladder Type Cable Tray",
     "slug": "gi-ladder-type-cable-tray",
-    "category": "Ladder",
+    "category": "Metal Cable Trays",
     "imgSrc": "/productImages/gi-ladder-type-cable-tray.jpeg",
-    "price": "$2499",
-    "rating": 5.0,
+    "price": "₹200.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Processor", "value": "M1 Pro" },
-      { "key": "Storage", "value": "1TB SSD" },
-      { "key": "Color", "value": "Silver" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Material", "value": "Stainless Steel" },
+      { "key": "Tray Type", "value": "Ladder Type Cable Tray" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Cable Tray Coating", "value": "Pre-Galvanized" },
+      { "key": "Sheet Thickness", "value": "6mm" },
+      { "key": "Usage/Application", "value": "Industrial" },
+      { "key": "Shape", "value": "Ladder" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 5,
-    "name": "Galvanized Cross Cable Tray",
-    "slug": "galvanized-cross-cable-tray",
-    "category": "Galvanized",
-    "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
-    "price": "$349",
-    "rating": 4.9,
+    "name": "GI Perforated Cable Trays",
+    "slug": "gi-perforated-cable-trays",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/gi-perforated-cable-trays.jpeg",
+    "price": "₹100.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Noise Cancellation", "value": "Industry Leading" },
-      { "key": "Battery Life", "value": "30 hours" },
-      { "key": "Color", "value": "Black" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Size", "value": "50 TO 1200 MM" },
+      { "key": "Material", "value": "MS" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Tray Type", "value": "Perforated Cable Tray" },
+      { "key": "Sheet Thickness", "value": "1mm to 3mm" },
+      { "key": "Cable Tray Coating", "value": "Pre-Galvanized" },
+      { "key": "Surface Finishing", "value": "GI" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 6,
-    "name": "GI Ladder Type Cable Tray",
-    "slug": "gi-ladder-type-cable-tray",
-    "category": "Ladder",
-    "imgSrc": "/productImages/gi-ladder-type-cable-tray.jpeg",
-    "price": "$2499",
-    "rating": 5.0,
+    "name": "Ladder Cable Trays",
+    "slug": "ladder-cable-trays",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/ladder-cable-trays.jpeg",
+    "price": "₹250.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Processor", "value": "M1 Pro" },
-      { "key": "Storage", "value": "1TB SSD" },
-      { "key": "Color", "value": "Silver" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Material", "value": "GI, Hot Dip" },
+      { "key": "Tray Type", "value": "Ladder Type Cable Tray" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Cable Tray Coating", "value": "Pre-Galvanized" },
+      { "key": "Shape", "value": "Ladder" },
+      { "key": "Sheet Thickness", "value": "1mm to 3mm" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 7,
-    "name": "Electric Cable Tray",
-    "slug": "electric-cable-tray",
-    "category": "Electrical",
-    "imgSrc": "/productImages/electric-cable-tray.jpeg",
-    "price": "$599",
-    "rating": 5.0,
+    "name": "Mild Steel Cable Tray",
+    "slug": "mild-steel-cable-tray",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/mild-steel-cable-tray.jpeg",
+    "price": "₹200.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Battery Life", "value": "18 hours" },
-      { "key": "Water Resistance", "value": "50 meters" },
-      { "key": "Color", "value": "Starlight" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Type", "value": "Mild Steel Cable Tray" },
+      { "key": "Material", "value": "Mild Steel" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Thickness", "value": "3.5-4mm" },
+      { "key": "Color", "value": "Silver" },
+      { "key": "Application", "value": "Installation Of Cables" },
+      { "key": "Feature", "value": "Rugged Proof, High Strength, Fine Finish" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 8,
-    "name": "Galvanized Cable Trays",
-    "slug": "galvanized-cable-trays",
-    "category": "Galvanized",
-    "imgSrc": "/productImages/galvanized-cable-trays.jpeg",
-    "price": "$199",
-    "rating": 4.8,
+    "name": "Perforated Cable Trays",
+    "slug": "perforated-cable-trays",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/perforated-cable-trays.jpeg",
+    "price": "₹100.00 / Meter",
+    "rating": null,
     "otherDetails": [
-      { "key": "Battery Life", "value": "12 hours" },
-      { "key": "Noise Cancellation", "value": "Active" },
-      { "key": "Color", "value": "White" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Size", "value": "50mm-1200mm" },
+      { "key": "Material", "value": "Pre Galvanized" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Tray Type", "value": "Perforated Cable Tray" },
+      { "key": "Shape", "value": "Rectangular" },
+      { "key": "Cable Tray Coating", "value": "Pre-galvanized" },
+      { "key": "Corrosion Resistance", "value": "Yes" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
     ]
   },
   {
     "id": 9,
-    "name": "Galvanized Cross Cable Tray",
-    "slug": "galvanized-cross-cable-tray",
-    "category": "Galvanized",
-    "imgSrc": "/productImages/galvanized-cross-cable-tray.jpeg",
-    "price": "$349",
-    "rating": 4.9,
+    "name": "Powder Coated Cable Tray",
+    "slug": "powder-coated-cable-tray",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/powder-coated-cable-tray.jpg",
+    "price": "Price on Request",
+    "rating": null,
     "otherDetails": [
-      { "key": "Noise Cancellation", "value": "Industry Leading" },
-      { "key": "Battery Life", "value": "30 hours" },
-      { "key": "Color", "value": "Black" }
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Tray Type", "value": "Tray Type" },
+      { "key": "Material", "value": "M.S." },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Size", "value": "50 to 600mm" },
+      { "key": "Grade", "value": "A" },
+      { "key": "Usage/Application", "value": "Electric" },
+      { "key": "Color", "value": "All Color" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Powder Coated Raceway Cable Trays",
+    "slug": "powder-coated-raceway-cable-trays",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/powder-coated-raceway-cable-trays.jpg",
+    "price": "₹150.00 / Meter",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Color", "value": "All Color" },
+      { "key": "Material", "value": "Powder Coated" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Usage/Application", "value": "Electric Wire Installation" },
+      { "key": "Tray Type", "value": "Non Perforated" },
+      { "key": "Mounting", "value": "Floor" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Stainless Steel Cable Tray",
+    "slug": "stainless-steel-cable-tray",
+    "category": "Metal Cable Trays",
+    "imgSrc": "/productImages/stainless-steel-cable-tray.jpeg",
+    "price": "Price on Request",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Shape", "value": "Rectangular" },
+      { "key": "Material", "value": "Stainless Steel" },
+      { "key": "Surface Finishing", "value": "Polished" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Color", "value": "Silver" },
+      { "key": "Thickness", "value": "1mm to 2.5mm" },
+      { "key": "Cable Tray Range", "value": "50mm to 700mm" },
+      { "key": "Length", "value": "2500mm to 3000mm" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "50 X 6 GI Earthing Strip",
+    "slug": "50-x-6-gi-earthing-strip",
+    "category": "GI Earthing Strips",
+    "imgSrc": "/productImages/50-x-6-gi-earthing-strip.jpeg",
+    "price": "₹75.00 / Kilogram",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Type", "value": "GI Earthing Strips" },
+      { "key": "Dimension", "value": "25mm-100mm, 25mm-100mm" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Usage/Application", "value": "Earthing" },
+      { "key": "Material", "value": "GI" },
+      { "key": "Color", "value": "Silver" },
+      { "key": "Minimum Order Quantity", "value": "50 Kilogram (MOQ)" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Galvanized Iron Earthing Strips",
+    "slug": "galvanized-iron-earthing-strips",
+    "category": "GI Earthing Strips",
+    "imgSrc": "/productImages/galvanized-iron-earthing-strips.jpeg",
+    "price": "₹75.00 / Kilogram",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Weight", "value": "100" },
+      { "key": "Usage/Application", "value": "Earthing" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Material", "value": "Galvanized Iron" },
+      { "key": "Rod Diameter", "value": "25x3mm" },
+      { "key": "Finish", "value": "Polished" },
+      { "key": "Minimum Order Quantity", "value": "10 Kilogram (MOQ)" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cable Tray Cover",
+    "slug": "cable-tray-cover",
+    "category": "Cable Tray Accessories",
+    "imgSrc": "/productImages/cable-tray-cover.jpeg",
+    "price": "₹100.00 / Meter",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Cable Tray Coating", "value": "Pre-Galvanized" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Material", "value": "MS" },
+      { "key": "Surface Finish", "value": "GI" },
+      { "key": "Size", "value": "55 to 605mm" },
+      { "key": "Grade", "value": "A" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cable Tray Reducer",
+    "slug": "cable-tray-reducer",
+    "category": "Cable Tray Accessories",
+    "imgSrc": "/productImages/cable-tray-reducer.jpeg",
+    "price": "₹200.00 / Meter",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Tray Type", "value": "Ladder Type Cable Tray" },
+      { "key": "Cable Tray Coating", "value": "Galvanized Coating" },
+      { "key": "Material", "value": "Aluminum" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Surface Finishing", "value": "Polished" },
+      { "key": "Resistivity", "value": "Rust Resistant" },
+      { "key": "Country of Origin", "value": "Made In India" },
+      { "key": "Application", "value": "Industrial" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "GI Coupler Plate",
+    "slug": "gi-coupler-plate",
+    "category": "Cable Tray Accessories",
+    "imgSrc": "/productImages/gi-coupler-plate.jpeg",
+    "price": "₹100.00 / Meter",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Size", "value": "Standard" },
+      { "key": "Type", "value": "Coupler Plate" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Shape", "value": "Rectangular" },
+      { "key": "Color", "value": "Silver" },
+      { "key": "Thickness", "value": "10-15mm" },
+      { "key": "Feature", "value": "Corrosion Resistance, Extra Stronger" },
+      { "key": "Minimum Order Quantity", "value": "10 Meter (MOQ)" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "GI Perforated Cable Tray Bend",
+    "slug": "gi-perforated-cable-tray-bend",
+    "category": "Cable Tray Accessories",
+    "imgSrc": "/productImages/ss-cable-tray-bend.jpeg",
+    "price": "₹100.00 / Piece",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Material", "value": "GI" },
+      { "key": "Condition", "value": "New" },
+      { "key": "Type", "value": "GI Perforated Cable Tray, Vertical" },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Thickness", "value": "1.6-8 mm" },
+      { "key": "Application", "value": "Industrial" },
+      { "key": "Minimum Order Quantity", "value": "10 Piece (MOQ)" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "MS Cable Tray Tee",
+    "slug": "ms-cable-tray-tee",
+    "category": "Cable Tray Accessories",
+    "imgSrc": "/productImages/ms-cable-tray-tee.jpg",
+    "price": "₹150.00 / Piece",
+    "rating": null,
+    "otherDetails": [
+      { "key": "Business Type", "value": "Manufacturer, Exporter, Supplier" },
+      { "key": "Country of Origin", "value": "India" },
+      { "key": "Condition", "value": "New" },
+      {
+        "key": "Tray Type",
+        "value": "Wire Mesh Cable Tray, Perforated Cable Tray"
+      },
+      { "key": "Preferred Buyer From", "value": "Worldwide" },
+      {
+        "key": "Cable Tray Coating",
+        "value": "Galvanized, Pre Galvanized, Hot Dip"
+      },
+      { "key": "Size", "value": "Customized" },
+      { "key": "Material", "value": "Mild Steel" },
+      { "key": "Minimum Order Quantity", "value": "10 Piece (MOQ)" }
     ]
   }
 ]

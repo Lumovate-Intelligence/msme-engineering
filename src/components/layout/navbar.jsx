@@ -42,7 +42,7 @@ export function NavbarSection({ fixed = false }) {
           </span>
         </NavbarBrand>
         <div className="flex md:order-2">
-          <button className="w-full md:w-fit border bg-blue-500 text-white rounded-lg flex items-center space-x-2 px-2 py-1">
+          <button className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-1">
             <IoSearch />
             <p className="text-sm">Search</p>
           </button>

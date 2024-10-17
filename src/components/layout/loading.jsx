@@ -6,7 +6,7 @@ export default function SpinLoading({ className }) {
       aria-hidden="true"
       className={
         (className || "") +
-        " text-gray-200 dark:text-gray-600 animate-spin fill-indigo-500"
+        " text-gray-200 dark:text-gray-600 animate-spin fill-black"
       }
       viewBox="0 0 100 101"
       fill="none"

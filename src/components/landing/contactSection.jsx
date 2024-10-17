@@ -76,7 +76,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
       className="w-full flex flex-col items-center justify-center py-8"
     >
       <p className="text-center font-semibold text-4xl">
-        Quick <span className="text-blue-500">Enquiry</span>
+        Quick <span className="text-yellow-300">Enquiry</span>
       </p>
       <div className="w-[95%] md:w-[85%] border rounded-lg shadow bg-white py-4 px-4 md:px-8 my-8">
         <div className="flex flex-col items-center">
@@ -144,11 +144,11 @@ const ContactSection = ({ selectedProduct = "" }) => {
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
               <button
-                className="flex justify-center bg-blue-500 text-white p-3 rounded-lg mt-4 w-full"
+                className="flex justify-center bg-yellow-300 p-3 rounded-lg mt-4 w-full"
                 type={loading ? "button" : "submit"}
               >
                 {loading ? (
-                  <SpinLoading className="w-5 h-5 text-white" />
+                  <SpinLoading className="w-5 h-5" />
                 ) : (
                   <p>Send Message</p>
                 )}
@@ -165,10 +165,12 @@ const ContactSection = ({ selectedProduct = "" }) => {
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
-              <FaMapMarkerAlt className="text-2xl text-blue-500" />
+              <FaMapMarkerAlt className="text-2xl text-yellow-300" />
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
-              <h4 className="text-xl text-blue-500 font-semibold">Location</h4>
+              <h4 className="text-xl text-yellow-300 font-semibold">
+                Location
+              </h4>
               <p>Ghaziabad, Uttar Pradesh</p>
             </div>
           </a>
@@ -178,10 +180,10 @@ const ContactSection = ({ selectedProduct = "" }) => {
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
-              <FaPhoneAlt className="text-2xl text-blue-500" />
+              <FaPhoneAlt className="text-2xl text-yellow-300" />
             </div>
             <div className="w-full flex flex-col justify-center items-center space-y-2">
-              <h4 className="text-xl text-blue-500 font-semibold">Mobile</h4>
+              <h4 className="text-xl text-yellow-300 font-semibold">Mobile</h4>
               <p>+91-8448640282</p>
             </div>
           </a>
@@ -191,10 +193,10 @@ const ContactSection = ({ selectedProduct = "" }) => {
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
-              <FaEnvelope className="text-2xl text-blue-500" />
+              <FaEnvelope className="text-2xl text-yellow-300" />
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
-              <h4 className="text-xl text-blue-500 font-semibold">Email</h4>
+              <h4 className="text-xl text-yellow-300 font-semibold">Email</h4>
               <p>msmeengineering@yahoo.com</p>
             </div>
           </a>
@@ -206,10 +208,10 @@ const ContactSection = ({ selectedProduct = "" }) => {
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
-              <FaGlobe className="text-2xl text-blue-500" />
+              <FaGlobe className="text-2xl text-yellow-300" />
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
-              <h4 className="text-xl text-blue-500 font-semibold">Website</h4>
+              <h4 className="text-xl text-yellow-300 font-semibold">Website</h4>
               <p>www.msmeengineering.com</p>
             </div>
           </a>

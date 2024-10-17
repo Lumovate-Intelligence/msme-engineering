@@ -5,6 +5,7 @@ import {
   BsGithub,
   BsInstagram,
   BsTwitter,
+  BsYoutube,
 } from "react-icons/bs";
 
 export function FooterSection() {
@@ -17,8 +18,7 @@ export function FooterSection() {
             <FooterIcon href="#" icon={BsFacebook} />
             <FooterIcon href="#" icon={BsInstagram} />
             <FooterIcon href="#" icon={BsTwitter} />
-            <FooterIcon href="#" icon={BsGithub} />
-            <FooterIcon href="#" icon={BsDribbble} />
+            <FooterIcon href="#" icon={BsYoutube} />
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ export default function AboutUsSection() {
     <div id="about" className="w-full flex justify-center items-center">
       <div className="w-[95%] md:w-[85%] flex flex-col items-center justify-center pt-8">
         <p className="text-center font-semibold text-4xl">
-          About <span className="text-blue-500">US</span>
+          About <span className="text-yellow-300">US</span>
         </p>
         <section className="bg-white border rounded-lg shadow py-8 mt-8">
           <div className="px-6 lg:px-8">
@@ -33,7 +33,10 @@ export default function AboutUsSection() {
                   and perforated products, are ideal for various industries such
                   as data centers, wind towers, and solar power systems.
                 </p>
-                <Button href="/products" className="w-full mt-6 bg-blue-500">
+                <Button
+                  href="/products"
+                  className="w-full mt-6 bg-yellow-300 text-black"
+                >
                   Explore Our Products
                 </Button>
               </div>

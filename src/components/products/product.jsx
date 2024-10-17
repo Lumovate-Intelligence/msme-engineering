@@ -38,7 +38,7 @@ export function Product() {
           </div>
           <div className="md:border-l w-full h-full dark:bg-gray-800 p-4 flex flex-col justify-between">
             <div className="space-y-4">
-              <h5 className="text-2xl font-semibold text-blue-500">
+              <h5 className="text-2xl font-semibold text-yellow-300">
                 {product.name}
               </h5>
               <table className="min-w-full table-auto border border-gray-300 dark:border-gray-700">
@@ -63,7 +63,7 @@ export function Product() {
               <div className="w-full flex justify-between items-center gap-2">
                 <a
                   href="#contact"
-                  className="text-center w-full rounded-lg bg-blue-500 px-4 py-2 text-sm font-medium text-white hover:bg-blue-600"
+                  className="text-center w-full rounded-lg bg-yellow-300 px-4 py-2 text-sm font-medium hover:bg-yellow-400"
                 >
                   Enquiry Now
                 </a>

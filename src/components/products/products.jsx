@@ -7,7 +7,7 @@ export function Products() {
   return (
     <div className="flex flex-col justify-center items-center mb-8">
       <p className="text-center font-semibold text-4xl mt-8">
-        Our <span className="text-blue-500">Products</span>
+        Our <span className="text-yellow-300">Products</span>
       </p>
 
       <div className="w-[95%] md:w-[85%] flex flex-wrap justify-between gap-8 mt-8">
@@ -45,7 +45,7 @@ function FlipCard({ product }) {
               />
             </div>
             <div className="py-4 border-t">
-              <h5 className="text-xl font-semibold tracking-tight text-blue-500 text-center">
+              <h5 className="text-xl font-semibold tracking-tight text-yellow-300 text-center">
                 {product.name}
               </h5>
             </div>
@@ -56,7 +56,7 @@ function FlipCard({ product }) {
         <div className="absolute w-full h-full backface-hidden rotate-y-180">
           <div className="w-full h-full border dark:bg-gray-800 p-4 rounded-lg shadow flex flex-col justify-between">
             <div className="space-y-4">
-              <h5 className="text-xl font-semibold text-blue-500">
+              <h5 className="text-xl font-semibold text-yellow-300">
                 {product.name}
               </h5>
               <table className="min-w-full table-auto border border-gray-300 dark:border-gray-700">
@@ -81,13 +81,13 @@ function FlipCard({ product }) {
               <div className="w-full flex justify-between items-center gap-2">
                 <Link
                   href={"/products/" + product.slug + "#contact"}
-                  className="text-center w-full rounded-lg border-blue-500 px-4 py-2 text-sm font-medium text-blue-500 border"
+                  className="text-center w-full rounded-lg border-yellow-300 px-4 py-2 text-sm font-medium text-yellow-400 border"
                 >
                   Enquiry Now
                 </Link>
                 <Link
                   href={"/products/" + product.slug}
-                  className="w-full rounded-lg bg-blue-500 px-4 py-2 text-sm font-medium text-white hover:bg-cyan-800 text-center"
+                  className="w-full rounded-lg bg-yellow-300 px-4 py-2 text-sm font-medium hover:bg-yellow-400 text-center"
                 >
                   View More
                 </Link>
