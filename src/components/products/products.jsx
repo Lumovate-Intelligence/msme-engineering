@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Products() {
   return (
-    <div className="flex flex-col justify-center items-center mb-8">
+    <div className="flex flex-col justify-center items-center">
       <p className="text-center font-semibold text-4xl mt-8">
         Our <span className="text-yellow-300">Products</span>
       </p>

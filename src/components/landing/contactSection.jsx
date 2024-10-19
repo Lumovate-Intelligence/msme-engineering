@@ -73,12 +73,12 @@ const ContactSection = ({ selectedProduct = "" }) => {
   return (
     <div
       id="contact"
-      className="w-full flex flex-col items-center justify-center py-8"
+      className="w-full flex flex-col items-center justify-center pt-8"
     >
       <p className="text-center font-semibold text-4xl">
         Quick <span className="text-yellow-300">Enquiry</span>
       </p>
-      <div className="w-[95%] md:w-[85%] border rounded-lg shadow bg-white py-4 px-4 md:px-8 my-8">
+      <div className="w-[95%] md:w-[85%] border rounded-lg shadow bg-white py-4 px-4 md:px-8 mt-8">
         <div className="flex flex-col items-center">
           <div className="flex flex-col md:flex-row justify-between">
             <div className="w-full md:w-[45%] py-4">

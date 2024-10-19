@@ -26,7 +26,7 @@ export function Product() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center mb-8">
+    <div className="flex flex-col justify-center items-center">
       <div className="w-[95%] md:w-[85%] flex flex-wrap justify-between gap-8 mt-8">
         <div className="w-full flex flex-col md:flex-row justify-between shadow border rounded-lg">
           <div className="w-full">
