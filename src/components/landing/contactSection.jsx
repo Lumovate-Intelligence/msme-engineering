@@ -7,6 +7,7 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import productData from "../../data/products.json";
+import SpintLoading from '../layout/loading';
 
 const ContactSection = ({ selectedProduct = "" }) => {
   // State for form fields
