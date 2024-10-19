@@ -53,9 +53,9 @@ export function NavbarSection({ fixed = false }) {
           <NavbarLink href="/" active>
             Home
           </NavbarLink>
-          <NavbarLink href="/#about">About</NavbarLink>
+          <NavbarLink href="/about">About</NavbarLink>
           <NavbarLink href="/products">Products</NavbarLink>
-          <NavbarLink href="/#contact">Contact</NavbarLink>
+          <NavbarLink href="/contact">Contact</NavbarLink>
         </NavbarCollapse>
       </Navbar>
     </div>
