@@ -7,7 +7,7 @@ import {
   NavbarLink,
   NavbarToggle,
 } from "flowbite-react";
-import { IoSearch } from "react-icons/io5";
+import { PiBookOpenText } from "react-icons/pi";
 
 export function NavbarSection({ fixed = false }) {
   const [isSticky, setIsSticky] = useState(fixed);
@@ -44,8 +44,8 @@ export function NavbarSection({ fixed = false }) {
         </NavbarBrand>
         <div className="flex md:order-2">
           <button className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-2">
-            <IoSearch />
-            <p className="text-sm">Search</p>
+            <PiBookOpenText />
+            <p className="text-sm">Brochure</p>
           </button>
           <NavbarToggle />
         </div>

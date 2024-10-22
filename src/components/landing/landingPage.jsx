@@ -7,6 +7,8 @@ import { ContactBar } from "../layout/contactBar";
 import ContactSection from "./contactSection";
 import AboutUsSection from "./aboutSection";
 import WhatsupFloating from "../layout/whatsappFloating";
+import WhyChooseUs from "./whyChooseUs";
+import CompanyFactsheet from "./factSheet";
 
 const LandingPage = () => {
   return (
@@ -15,7 +17,9 @@ const LandingPage = () => {
       <NavbarSection />
       <HeroSection />
       <LatestProducts />
+      <WhyChooseUs />
       <AboutUsSection />
+      <CompanyFactsheet />
       <ContactSection />
       <FooterSection />
       <WhatsupFloating />

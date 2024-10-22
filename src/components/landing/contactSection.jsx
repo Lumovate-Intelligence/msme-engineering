@@ -7,7 +7,8 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import productData from "../../data/products.json";
-import SpinLoading from '../layout/loading';
+import SpinLoading from "../layout/loading";
+import { IoHome } from "react-icons/io5";
 
 const ContactSection = ({ selectedProduct = "" }) => {
   // State for form fields
@@ -157,11 +158,11 @@ const ContactSection = ({ selectedProduct = "" }) => {
           </div>
         </div>
 
-        <div className="space-x-0 space-y-6 md:space-x-6 md:space-y-0 flex flex-col md:flex-row justify-between my-4">
+        <div className="space-x-0 space-y-6 md:space-x-6 md:space-y-0 flex flex-col md:flex-row justify-between mb-4 mt-4 md:mb-4 md:mt-0">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=JCCQ%2B8Q9%20Ghaziabad,%20Uttar%20Pradesh"
-            target="_blank"
-            rel="noopener noreferrer"
+            // href="https://www.google.com/maps/search/?api=1&query=JCCQ%2B8Q9%20Ghaziabad,%20Uttar%20Pradesh"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
@@ -169,14 +170,35 @@ const ContactSection = ({ selectedProduct = "" }) => {
             </div>
             <div className="flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-yellow-300 font-semibold">
-                Location
+                Office Address
               </h4>
-              <p>Ghaziabad, Uttar Pradesh</p>
+              <p className="text-center">
+                Gali no 3, saini vihar, Mundka, delhi, India - 110041
+              </p>
             </div>
           </a>
 
           <a
-            href="tel:+918448640282"
+            // href="https://www.google.com/maps/search/?api=1&query=JCCQ%2B8Q9%20Ghaziabad,%20Uttar%20Pradesh"
+            // target="_blank"
+            // rel="noopener noreferrer"
+            className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
+          >
+            <div className="border rounded-full p-4">
+              <IoHome className="text-2xl text-yellow-300" />
+            </div>
+            <div className="flex flex-col justify-center items-center space-y-2">
+              <h4 className="text-xl text-yellow-300 font-semibold">
+                Work Address
+              </h4>
+              <p className="text-center">
+                Office no 8, Tewatiya road, shahberi, Noida - 201009
+              </p>
+            </div>
+          </a>
+
+          <a
+            // href="tel:+918448640282"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
@@ -185,11 +207,12 @@ const ContactSection = ({ selectedProduct = "" }) => {
             <div className="w-full flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-yellow-300 font-semibold">Mobile</h4>
               <p>+91-8448640282</p>
+              <p>+91-6393596447</p>
             </div>
           </a>
 
           <a
-            href="mailto:msmeengineering@yahoo.com"
+            // href="mailto:msmeengineering@yahoo.com"
             className="w-full flex flex-col items-center space-x-4 border rounded-lg px-4 py-2 space-y-2"
           >
             <div className="border rounded-full p-4">
@@ -198,10 +221,11 @@ const ContactSection = ({ selectedProduct = "" }) => {
             <div className="flex flex-col justify-center items-center space-y-2">
               <h4 className="text-xl text-yellow-300 font-semibold">Email</h4>
               <p>msmeengineering@yahoo.com</p>
+              <p>sales@msmeengineering.com</p>
             </div>
           </a>
 
-          <a
+          {/* <a
             href="https://www.msmeengineering.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -214,7 +238,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
               <h4 className="text-xl text-yellow-300 font-semibold">Website</h4>
               <p>www.msmeengineering.com</p>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
