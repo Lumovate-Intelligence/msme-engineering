@@ -173,7 +173,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
                 Office Address
               </h4>
               <p className="text-center">
-                Gali no 3, saini vihar, Mundka, delhi, India - 110041
+                Office no 8, Tewatiya road, shahberi, Noida - 201009
               </p>
             </div>
           </a>
@@ -192,7 +192,7 @@ const ContactSection = ({ selectedProduct = "" }) => {
                 Work Address
               </h4>
               <p className="text-center">
-                Office no 8, Tewatiya road, shahberi, Noida - 201009
+                Gali no 3, saini vihar, Mundka, delhi, India - 110041
               </p>
             </div>
           </a>

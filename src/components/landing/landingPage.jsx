@@ -16,9 +16,9 @@ const LandingPage = () => {
       <ContactBar />
       <NavbarSection />
       <HeroSection />
+      <AboutUsSection />
       <LatestProducts />
       <WhyChooseUs />
-      <AboutUsSection />
       <CompanyFactsheet />
       <ContactSection />
       <FooterSection />

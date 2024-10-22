@@ -53,7 +53,7 @@ export default function CompanyFactsheet() {
               <h3 className="text-lg font-semibold text-yellow-300">
                 LEGAL STATUS OF FIRM
               </h3>
-              <p>Private Limited</p>
+              <p>Proprietor Firm</p>
             </div>
           </div>
 

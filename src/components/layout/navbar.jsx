@@ -43,19 +43,23 @@ export function NavbarSection({ fixed = false }) {
           <img src="/logos/logowithtext.png" className="w-28" />
         </NavbarBrand>
         <div className="flex md:order-2">
-          <button className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-2">
+          <a
+            href="/MSME-Engineering-Broucher.pdf"
+            download
+            className="w-full md:w-fit border bg-yellow-300 rounded-lg flex items-center space-x-2 px-2 py-2"
+          >
             <PiBookOpenText />
-            <p className="text-sm">Brochure</p>
-          </button>
+            <p className="text-sm font-bold">Brochure</p>
+          </a>
           <NavbarToggle />
         </div>
         <NavbarCollapse>
           <NavbarLink href="/" active>
             Home
           </NavbarLink>
-          <NavbarLink href="/about">About</NavbarLink>
+          <NavbarLink href="/about">About Us</NavbarLink>
           <NavbarLink href="/products">Products</NavbarLink>
-          <NavbarLink href="/contact">Contact</NavbarLink>
+          <NavbarLink href="/contact">Contact Us</NavbarLink>
         </NavbarCollapse>
       </Navbar>
     </div>
